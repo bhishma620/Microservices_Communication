@@ -17,4 +17,6 @@ public interface ProductService {
     ResponseEntity<List<Product>> getAllProduct();
 
     ResponseEntity<String> deleteProduct(int id);
+
+//    ResponseEntity<Product> updateProductCount(int id,int noOfItem);
 }

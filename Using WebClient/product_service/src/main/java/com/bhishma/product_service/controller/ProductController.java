@@ -43,5 +43,12 @@ public class ProductController {
     }
 
 
+//    @GetMapping("/order/product/{id}")
+//    ResponseEntity<Product> updateProductCount(@PathVariable("id") int id
+//            ,@RequestBody int count){
+//        return productService.updateProductCount(id,count);
+//    }
+
+
 
 }

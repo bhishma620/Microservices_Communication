@@ -89,5 +89,17 @@ public class ProductServiceImpl implements ProductService {
 
     }
 
+//    @Override
+//    public ResponseEntity<Product> updateProductCount(int id, int noOfItem) {
+//
+//        Optional <Product> product=productRepo.findById(id);
+//        if(product.isPresent()){
+//            product.get().setNoOfProduct(noOfItem);
+//            productRepo.save(product.get());
+//            return new ResponseEntity<Product>(product.get(),HttpStatus.OK);
+//        }
+//        return new ResponseEntity<Product>(new Product(),HttpStatus.NOT_FOUND);
+//    }
+
 
 }
